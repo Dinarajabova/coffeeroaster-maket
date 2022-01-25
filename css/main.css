@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Regular.woff2') format('woff2'),
+        url('../fonts/Barlow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Bold.woff2') format('woff2'),
+        url('../fonts/Barlow-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Barlow", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+.container {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 0;
+}
+
+.header__img-logo {
+    display: block;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.header__list-item {
+    margin-right: 33px;
+}
+.header__list-item:last-child {
+    margin-right: 0;
+}
+.nav-link {
+    text-decoration: none;
+    color: #83888F;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+
+
+.intro__container {
+    padding-top: 115px;
+    padding-bottom: 115px;
+    background-image: url(../img/Bitmap.jpg);
+    border-radius: 10px;
+}
+.intro__div {
+    margin-left: 86px;
+}
+.intro__title {
+    font-size: 72px;
+    font-weight: 900;
+    width: 493px;
+    color: white;
+}
+.intro__paragraph {
+    color: white;
+    width: 445px;
+    margin: 32px 0 56px;
+   
+}
+.main-link {
+    padding: 15px 31px;
+    display: inline-block;
+    background-color: #0E8784;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+.collections {
+}
+
+.collections__container {
+    width: 1111px;
+    margin-top: 200px;
+    
+    
+}
+.collections__title {
+}
+.collections__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.collection {
+    text-align: center;
+}
+.collection__title {
+    font-size: 24px;
+    margin: 71px 0 24px;
+    text-transform: capitalize;
+}
+.collection_description {
+    width: 255px;
+    color: #333D4B;
+}
